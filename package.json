@@ -7,7 +7,9 @@
     "preinstall": "npm config set legacy-peer-deps true",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "backend": "node backend/server.js",
+    "bot": "node backend/bot.js"
   },
   "dependencies": {
     "@gravity-ui/uikit": "^6.0.0",
